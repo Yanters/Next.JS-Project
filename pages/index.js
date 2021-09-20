@@ -29,7 +29,7 @@ export async function getStaticProps() {
   console.log("GetStaticProps");
 
   const client = await MongoClient.connect(
-    "mongodb+srv://Yanter:password@cluster0.ozync.mongodb.net/meetups?retryWrites=true&w=majority"
+    "mongodb+srv://Yanter:333221@cluster0.ozync.mongodb.net/meetups?retryWrites=true&w=majority"
   );
   const db = client.db();
 
